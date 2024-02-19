@@ -34,9 +34,10 @@ function Board() {
 
   const srcCode = `
   <html>
-  <body>${html_edit}</body>
   <style>${css_edit}</style>
+  <body>${html_edit}
   <script>${js_edit}</script>
+  </body>
   </html>
   `;
   return (
