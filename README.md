@@ -1,31 +1,39 @@
 ```bash
 .
 ├── public
-│   └── assets
-│       ├── favicon.ico
-│       └── logo-white.png
 ├── src
 │   └── app
 │       ├── api
 │       │   └── routes.js
+│       ├── assets
+│       │   ├── favicon.ico
+│       │   └── logo-white.png
 │       ├── auth
 │       │   ├── ForgetPassword.tsx
 │       │   ├── Login.tsx
 │       │   └── Signup.tsx
 │       ├── components
-│       │   ├── button
-│       │   │   └── Button.tsx
-│       │   ├── icons
-│       │   │   ├── CSSIcon.tsx
-│       │   │   ├── DownIcon.tsx
-│       │   │   ├── GridIcon.tsx
-│       │   │   ├── HTMLIcon.tsx
-│       │   │   ├── Header.tsx
-│       │   │   ├── HeartIcon.tsx
-│       │   │   ├── JSIcon.tsx
-│       │   │   └── SettingIcon.tsx
-│       │   ├── Board.tsx
-│       │   └── Result.tsx
+│       │   ├── Featured Components
+│       │   │   ├── Homepage
+│       │   │   │   ├── Board
+│       │   │   │   │   └── Board.tsx
+│       │   │   │   ├── Header
+│       │   │   │   │   └── Header.tsx
+│       │   │   │   └── Result
+│       │   │   │       └── Result.tsx
+│       │   │   └── Routes
+│       │   │       └── Routes.tsx
+│       │   └── Reusable Components
+│       │       ├── button
+│       │       │   └── Button.tsx
+│       │       └── icons
+│       │           ├── CSSIcon.tsx
+│       │           ├── DownIcon.tsx
+│       │           ├── GridIcon.tsx
+│       │           ├── HTMLIcon.tsx
+│       │           ├── HeartIcon.tsx
+│       │           ├── JSIcon.tsx
+│       │           └── SettingIcon.tsx
 │       ├── context
 │       │   └── MyContext.js
 │       ├── styles
@@ -40,3 +48,4 @@
 ├── tailwind.config.ts
 ├── temp_tree.md
 └── tsconfig.json
+```

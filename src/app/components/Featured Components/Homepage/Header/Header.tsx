@@ -1,11 +1,11 @@
 "use client";
 import React, { useContext } from "react";
 import Image from "next/image";
-import logo from "../../../../public/assets/logo-white.png";
-import { MyContext } from "../../context/MyContext";
-import GridIcon from "./GridIcon";
-import SettingIcon from "./SettingIcon";
-import HeartIcon from "./HeartIcon";
+import logo from "@/app/assets/logo-white.png";
+import { MyContext } from "../../../../context/MyContext";
+import GridIcon from "../../../Reusable Components/Icons/GridIcon";
+import SettingIcon from "../../../Reusable Components/Icons/SettingIcon";
+import HeartIcon from "../../../Reusable Components/Icons/HeartIcon";
 function Navbar() {
   const { verticalLayout, setVerticalLayout } = useContext(MyContext);
 

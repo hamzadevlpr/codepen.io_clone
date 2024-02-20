@@ -5,13 +5,13 @@ import CodeMirror from "@uiw/react-codemirror";
 import { html } from "@codemirror/lang-html";
 import { css } from "@codemirror/lang-css";
 import { javascript } from "@codemirror/lang-javascript";
-import Result from "@/app/components/Result";
-import { MyContext } from "../context/MyContext";
-import SettingIcon from "./icons/SettingIcon";
-import DownIcon from "./icons/DownIcon";
-import HTMLIcon from "./icons/HTMLIcon";
-import CSSIcon from "./icons/CSSIcon";
-import JSIcon from "./icons/JSIcon";
+import Result from "@/app/components/Featured Components/Homepage/Result/Result";
+import { MyContext } from "../../../../context/MyContext";
+import SettingIcon from "../../../Reusable Components/Icons/SettingIcon";
+import DownIcon from "../../../Reusable Components/Icons/DownIcon";
+import HTMLIcon from "../../../Reusable Components/Icons/HTMLIcon";
+import CSSIcon from "../../../Reusable Components/Icons/CSSIcon";
+import JSIcon from "../../../Reusable Components/Icons/JSIcon";
 
 function Board() {
   const [html_edit, setHtml_Edit] = useState("");
@@ -161,7 +161,7 @@ function Board() {
           </div>
         </div>
         {/* Result component on the left */}
-        <div className={`h-[400px] border-2 ${verticalLayout ? "col-span-9 h-screen" : ""}`}>
+        <div className={`h-[400px] ${verticalLayout ? "col-span-9" : ""}`}>
           <Result srcCode={srcCode} />
         </div>
       </div>
