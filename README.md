@@ -1,12 +1,13 @@
+``` bash
 .
 ├── public
-│   └── favicon.ico
+│   └── assets
+│       ├── favicon.ico
+│       └── logo-white.png
 ├── src
 │   └── app
 │       ├── api
 │       │   └── routes.js
-│       ├── assets
-│       │   └── logo-white.png
 │       ├── auth
 │       │   ├── forgot-password
 │       │   │   └── page.tsx
@@ -22,8 +23,9 @@
 │       │   │   └── SettingIcon.tsx
 │       │   ├── Board.tsx
 │       │   ├── Header.tsx
-│       │   ├── MyContext.js
 │       │   └── Result.tsx
+│       ├── context
+│       │   └── MyContext.js
 │       ├── styles
 │       │   └── globals.css
 │       ├── favicon.ico
@@ -37,3 +39,4 @@
 ├── tailwind.config.ts
 ├── temp_tree.md
 └── tsconfig.json
+```

@@ -1,8 +1,8 @@
 'use client'
-import React, { useContext, useState } from "react";
+import React, { useContext} from "react";
 import Image from "next/image";
-import logo from "@/app/assets/logo-white.png";
-import { MyContext } from "./MyContext";
+import logo from "../../../public/assets/logo-white.png";
+import { MyContext } from "../context/MyContext";
 function Navbar() {
   const {verticalLayout, setVerticalLayout} = useContext(MyContext);
 

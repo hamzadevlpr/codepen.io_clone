@@ -6,7 +6,7 @@ import { html } from "@codemirror/lang-html";
 import { css } from "@codemirror/lang-css";
 import { javascript } from "@codemirror/lang-javascript";
 import Result from "@/app/components/Result";
-import { MyContext } from "./MyContext";
+import { MyContext } from "../context/MyContext";
 
 function Board() {
   const [html_edit, setHtml_Edit] = useState("");
