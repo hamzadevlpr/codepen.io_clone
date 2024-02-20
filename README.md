@@ -1,4 +1,4 @@
-``` bash
+```bash
 .
 ├── public
 │   └── assets
@@ -9,12 +9,9 @@
 │       ├── api
 │       │   └── routes.js
 │       ├── auth
-│       │   ├── forgot-password
-│       │   │   └── page.tsx
-│       │   ├── login
-│       │   │   └── page.tsx
-│       │   └── signup
-│       │       └── page.tsx
+│       │   ├── ForgetPassword.tsx
+│       │   ├── Login.tsx
+│       │   └── Signup.tsx
 │       ├── components
 │       │   ├── button
 │       │   │   └── Button.tsx
@@ -28,7 +25,6 @@
 │       │   └── MyContext.js
 │       ├── styles
 │       │   └── globals.css
-│       ├── favicon.ico
 │       ├── layout.tsx
 │       └── page.tsx
 ├── next-env.d.ts
