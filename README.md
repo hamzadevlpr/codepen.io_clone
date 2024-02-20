@@ -1,13 +1,18 @@
-# Working File
+# Working Directory
 
 ### 1. Reusable Component
 
 * buttons
 * icons
+* fonts
+* context
   
-### 2. Feature Components
+### 2. Featured Components
 
 * Header
-* html, css, javascript compiler
-* Result 
+* Board
+* html, css, javascript editor
+* grid layout
+* Results 
+* Footer
 
